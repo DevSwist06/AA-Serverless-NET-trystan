@@ -20,7 +20,6 @@ TestResults/
 *.coveragexml
 
 # Fichiers générés par Visual Studio Code
-.vscode/
 
 # Paquets NuGet téléchargés
 *.nupkg
