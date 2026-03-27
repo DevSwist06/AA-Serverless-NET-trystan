@@ -1,0 +1,37 @@
+# .gitignore pour un projet .NET/C#
+
+# Fichiers de build et dossiers binaires
+bin/
+obj/
+
+# Fichiers de logs
+*.log
+
+# Fichiers utilisateur et de configuration IDE
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Fichiers de test et de couverture
+TestResults/
+*.coverage
+*.coveragexml
+
+# Fichiers générés par Visual Studio Code
+.vscode/
+
+# Paquets NuGet téléchargés
+*.nupkg
+packages/
+
+# Fichiers de publication
+publish/
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Fichiers secrets ou sensibles
+secrets.json

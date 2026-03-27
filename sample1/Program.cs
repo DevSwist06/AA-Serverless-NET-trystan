@@ -1,4 +1,6 @@
-﻿namespace sample1;
+﻿
+using Newtonsoft.Json;
+namespace sample1;
 
 public class Personne
 {
@@ -30,7 +32,7 @@ class Program
     static void Main(string[] args)
     {
         var personne = new Personne("Alice", 30);
-        Console.WriteLine(personne.Hello(true));
-        Console.WriteLine(personne.Hello(false));
+        string json = JsonConvert.SerializeObject(personne, Formatting.Indented);
+        Console.WriteLine(json);
     }
 }
